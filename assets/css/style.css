@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 40px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #ec6029;
+}
+nav .nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav .nav .nav-person {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbe5dc;
+  gap: 20px;
+}
+nav .nav .nav-person .search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+nav .nav .nav-person .search .account {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+nav .nav .nav-person .search .account #person {
+  padding: 5px 6px;
+  color: #ec6029;
+  border: #ec6029 1px solid;
+  border-radius: 50%;
+}
+nav .nav .nav-person .search .account .keep {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+}
+nav .nav .nav-person .search .account .keep p {
+  color: #595757;
+}
+nav .nav .nav-person .search .account .keep h5 {
+  font-size: 18px;
+}
+nav .nav .nav-person .search #rels {
+  font-size: 16px;
+  padding: 12px 15px;
+  background-color: #ec6029;
+  border-radius: 5px;
+}
+nav .nav .nav-person .search input {
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  width: 600px;
+}
+nav .nav .keeps {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav .keeps .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+nav .nav .keeps .list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+nav .nav .keeps .list ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav .keeps .list ul li:hover {
+  cursor: pointer;
+}
+nav .nav .icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+nav .nav .icone i {
+  font-size: 15px;
+  background-color: #eeb6a0;
+  padding: 2px 4px;
+  border-radius: 50%;
+}
+nav .nav .icone i:hover {
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
